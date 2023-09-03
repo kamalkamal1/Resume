@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+navbar{
+    background-color:white;
+}
+
+.nav-link{
+    color:black;
+    font-size: 1 rem;
+    font-weight:500;
+    cursor:pointer;
+    text-decoration:none;
+    transition: 1.10;
+
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.navbar-brand{
+    font-size: 1.25 rem;
+    font-weight: 800;
+    color:black;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+/* main section */
+
+.main{
+    background: url() no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.main h3{
+    font-size:4.4rem;
+    font-weight: 350;
+}
+
+.main h6{
+    font-size: 1.4 rem;
+    text-transform:uppercase;
+    line-height:1;
+    border-bottom: 2px solid #0d6efd;
+    width: 23%;
+
+}
+
+
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color:#0d6efd;
+    color:white;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover{
+    background-color:transparent;
+    color:#0d6efd;
+    transition: 0.5s;
+    border: 1px solid #0d6efd;
+}
+
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color:transparent ;
+    color:#0d6efd;
+    outline:none;
+    border:1px solid #0d6efd;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2:hover{
+    background-color: #0d6efd;
+    transition: 0.5sec;
+    color:white;
+}
+
+
+.about img{
+    box-shadow: 2px 2px 42px -5px rgba(0,0,0,0.75);
+}
+
+.progress{
+    background-color: whitesmoke;
+    justify-content: flex;
+    border-radius: 50px;
+    align-items: center;
+    position:relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    -webkit-box-shadow: inset -14px -5px 54px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -14px -5px 54px -13px rgba(0,0,0,0.75);
+box-shadow: inset -14px -5px 54px -13px rgba(0,0,0,0.75);
+}
+
+.pro-value1{
+    animation: load1 2s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value2{
+    animation: load2 2s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4{
+    animation: load4 4s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progress p{
+    color:white;
+    padding:6px;
+}
+
+@keyframes load1{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes load2{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes load3{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes load4{
+    0%{
+       width: 0; 
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: #0d6efd;
+    color:white;
+    border-radius:8px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: #0d6efd;
+    border:1px solid #0d6efd;
+    transition: 1s;
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid #0d6efd;
+    background-color:transparent;
+    color:#0d6efd;
+    border-radius:8px;
+}
+
+.btn2:hover{
+    background-color: #0d6efd;
+    color: white;
+    border:1px solid #0d6efd;
+    transition: 1s;
+}
+
+.card{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.card:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.05);
+}
+
+
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color: lightgrey;
+    color:black;
+    padding: 12px;
+    display:inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.circle:hover{
+     background-color:#0d6efd;
+     color:white;
+     transition: 0.5s;
+}
+
+footer{
+
+    background-color: lightgray;
+    color:black;
+}
